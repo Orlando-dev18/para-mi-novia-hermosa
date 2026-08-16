@@ -77,7 +77,7 @@
 </head>
 <body>
 <canvas class="webgl"></canvas>
-<div id="titulo-corazon">Apreta el corazon</div>
+<div id="titulo-corazon">Presiona el corazon de enmedio</div>
 <div id="modal-carta">
     <div class="carta">
         <h3>Para ti</h3>
@@ -241,8 +241,9 @@ gltfLoader.load(
 /* =================== FRASES POR TODO EL UNIVERSO =================== */
 const frases = [
     "Te amo 💖", "Te quiero 💘", "Eres mi todo ", "Mi cielo ", "Mi amor 💞",
-    "Te adoro ", "Te extraño ", "Mi todo 💫", "Mi reina 👑", "Mi universo ",
-    "Guapa 😍", "Bella ", "Preciosa 💕", "Princesa "
+    "Te adoro ", "Te extraño mucho", "Mi todo 💫", "Mi reina 👑", "Mi universo ",
+    "Guapa 😍", "Bella ", "Preciosa 💕", "Princesa ", "Mi estrellita hermosa",
+    "Mi niña preciosa", "Mi fantacia"
 ];
 
 function crearTexto(msg, size=1.8) {
@@ -349,7 +350,7 @@ const modalCarta = document.getElementById('modal-carta');
 const mensajeRomantico = document.getElementById('mensaje-romantico');
 const cerrarCarta = document.getElementById('cerrar-carta');
 const frasesRomanticas = [
-    'Desde que llegaste a mi vida, siento que el universo encontró una forma perfecta de ordenarse dentro de mí. Eres como una galaxia entera, llena de misterios hermosos que quiero descubrir poco a poco, como estrellas que brillan incluso en mis noches más oscuras. A veces pienso que, entre millones de mundos, tuve la suerte de encontrarte justo a ti, como si el destino hubiera trazado nuestra historia desde el inicio del tiempo. Y es que amarte se siente así, infinito, profundo y brillante, como el cielo cuando lo miro y pienso en todo lo que significas para mí. ✨'
+    'Desde que llegaste a mi vida, siento que el universo encontró una forma perfecta de ordenarse dentro de mí. Eres como una galaxia entera, llena de misterios hermosos que quiero descubrir poco a poco, como estrellas que brillan incluso en mis noches más oscuras. A veces pienso que, entre millones de mundos, tuve la suerte de encontrarte justo a ti, como si el destino hubiera trazado nuestra historia desde el inicio del tiempo. Y es que amarte se siente así, infinito, profundo y brillante, como el cielo cuando lo miro y pienso en todo lo que significas para mí, Gracias Estrella por aparecerte en mi vida ✨'
 ];
 
 function mostrarMensajeRomantico() {
@@ -459,7 +460,9 @@ window.addEventListener('resize', () => {
   cursor:pointer;
   z-index:999;
 ">
-    <p>toca Aqui </p>
+    <p>Toca Aqui y</p>
+    <p>Veras algo bien hermoso hecho por mi</p>
+    <p> ♡♡ </p>
 </div>
 <script>
     const musica = document.getElementById("musica-fondo");
